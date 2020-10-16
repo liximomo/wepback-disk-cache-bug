@@ -1,0 +1,26 @@
+# MAC
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+
+# Yarn Integrity file
+.yarn-integrity
+
+# workspace
+.vscode/
+.idea/
+
+# build output
+/lib/
+packages/*/lib/
+packages/*/shuvi-app/
+packages/*/esm/
+
+test/fixtures/**/dist/
+test/fixtures/**/.shuvi/
